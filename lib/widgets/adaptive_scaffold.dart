@@ -10,14 +10,12 @@ class AdaptiveScaffold extends StatelessWidget {
     if (Platform.isIOS) {
       return CupertinoApp(
         home: CupertinoPageScaffold(
-          backgroundColor: Colors.teal,
           child: MICard(),
         ),
       );
     } else {
       return MaterialApp(
         home: Scaffold(
-          backgroundColor: Colors.teal,
           body: MICard(),
         ),
       );
