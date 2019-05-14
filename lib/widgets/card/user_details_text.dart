@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/*Custom Class for User Text Information*/
+
 class UserDetailsText extends StatelessWidget {
   final String userText;
   final double userFontSize;

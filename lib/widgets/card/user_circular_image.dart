@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+/*
+* Custom Class for User Circular Avatar
+* */
+
 class UserCircularImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

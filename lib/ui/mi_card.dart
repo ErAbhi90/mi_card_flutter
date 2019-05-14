@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mi_card/widgets/card_details.dart';
 
+/*This is the main Screen of the app */
 class MICard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

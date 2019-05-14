@@ -30,6 +30,7 @@ flutter:
 
   assets:
     - images/abhi.jpeg
+    - images/abhi1.jpeg
 
   fonts:
     - family: Playball
