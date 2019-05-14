@@ -1,21 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:mi_card/widgets/adaptive_scaffold.dart';
 
 void main() {
   runApp(
-    MICard(),
+    AdaptiveScaffold(),
   );
-}
-
-class MICard extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.teal,
-        body: SafeArea(
-          child: Column(),
-        ),
-      ),
-    );
-  }
 }
